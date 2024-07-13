@@ -6,7 +6,7 @@ RightClickGPT is a Chrome extension that allows you to quickly send selected tex
 
 - Right-click context menu integration.
 - Configurable prompt format and ChatGPT chat ID.
-- Option to focus on an existing ChatGPT tab if available.
+- Option to use an existing ChatGPT tab if available.
 - Popup for easy configuration of settings.
 
 ## Installation
