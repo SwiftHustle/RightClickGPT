@@ -26,7 +26,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
       const chatURL = `https://chatgpt.com/chat/${chatID}`;
 
       if (data.focusExistingTab) {
-        chrome.tabs.query({ url: ["https://chatgpt.com/c/*", "https://chatgpt.com/g/*"] }, (tabs) => {
+        chrome.tabs.query({ url: ["https://chatgpt.com/c/*", "https://chatgpt.com/g/*", "https://chatgpt.com/*"] }, (tabs) => {
           if (tabs.length > 0) {
             // Focus on the existing tab
             const existingTab = tabs[0];
